@@ -1,0 +1,9 @@
+{
+  "name": "Fauzi",
+  "short_name": "Fauzi",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}
