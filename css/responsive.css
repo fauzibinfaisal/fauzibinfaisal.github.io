@@ -153,7 +153,7 @@
 		min-width: 130px;
 	}
 	.exprience-image {
-		height: 160px;
+		height: 80px;
 	}
 	.section-padding {
 		padding-top: 30px;
@@ -310,7 +310,7 @@
 	}
 
 	.exprience-image {
-		min-height: 100px;
+		min-height: 60px;
 	}
 	.exprience-info h5 {
 		margin-top: 10px;
@@ -578,7 +578,7 @@
 		float: none;
 		height: inherit;
 		min-height: inherit;
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.exprience-info{
 		margin-bottom: 20px
