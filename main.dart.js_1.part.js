@@ -120,7 +120,7 @@ _.a=h},
 W0:function W0(d,e,f){this.c=d
 this.d=e
 this.a=f},
-aBs(d){return D.Jj[B.i.bd(B.d.cN(d+22.5,45),8)]}},D,H,F,I,G,E,K
+aBs(d){return D.Jm[B.i.bd(B.d.cN(d+22.5,45),8)]}},D,H,F,I,G,E,K
 J=c[1]
 A=c[0]
 B=c[2]
@@ -159,7 +159,7 @@ x.toString
 d.cH(w,e.R(0,y.v.a(x).a))}}}
 C.N0.prototype={
 br(){var x,w,v,u,t,s=this
-if(s.A$==null){s.dy=D.TA
+if(s.A$==null){s.dy=D.TD
 return}x=y.S.a(A.r.prototype.gX.call(s))
 w=s.A$
 w.toString
@@ -251,7 +251,7 @@ I(){return"_LocationStatus."+this.b}}
 C.vE.prototype={
 I(){return"_HeadingStatus."+this.b}}
 C.At.prototype={
-ae(){return new C.EY(D.a0i,D.a03)}}
+ae(){return new C.EY(D.a0l,D.a06)}}
 C.EY.prototype={
 aq(){var x,w=this
 w.aH()
@@ -272,14 +272,14 @@ v.a.b2()
 w.aE()},
 n3(){var x=0,w=A.O(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k
 var $async$n3=A.P(function(d,e){if(d===1){t.push(e)
-x=u}for(;;)switch(x){case 0:if(s.r===D.jp){x=1
+x=u}for(;;)switch(x){case 0:if(s.r===D.jq){x=1
 break}s.O(new C.aoJ(s))
 s.xe()
 u=4
 x=7
 return A.I($.rb().ui(),$async$n3)
 case 7:r=e
-if(!r){s.x7(D.jq,"Location services are turned off. Enable location and try again.")
+if(!r){s.x7(D.jr,"Location services are turned off. Enable location and try again.")
 x=1
 break}x=8
 return A.I($.rb().l2(),$async$n3)
@@ -292,7 +292,7 @@ case 11:q=e
 case 10:if(q===B.dq||q===B.ea){s.x7(D.BE,q===B.ea?"Location access is blocked. Allow it in your browser or device settings, then retry.":"Location permission is needed to calculate the Qibla from where you are.")
 x=1
 break}x=12
-return A.I(H.azR(D.LU),$async$n3)
+return A.I(H.azR(D.LX),$async$n3)
 case 12:p=e
 n=p.a*3.141592653589793/180
 m=(39.8262-p.b)*3.141592653589793/180
@@ -304,8 +304,8 @@ x=6
 break
 case 4:u=3
 k=t.pop()
-if(A.aq(k) instanceof A.uX)s.x7(D.jq,"Location is taking too long. Move to an open area and try again.")
-else s.x7(D.jq,"Your location is currently unavailable. Check your connection and location settings.")
+if(A.aq(k) instanceof A.uX)s.x7(D.jr,"Location is taking too long. Move to an open area and try again.")
+else s.x7(D.jr,"Your location is currently unavailable. Check your connection and location settings.")
 x=6
 break
 case 3:x=2
@@ -325,7 +325,7 @@ break}if(!t){u.O(new C.aoO(u))
 x=1
 break}s=u.f
 if(s!=null)s.aU()
-u.f=A.c7(D.GO,new C.aoP(u))
+u.f=A.c7(D.GQ,new C.aoP(u))
 case 1:return A.M(v,w)}})
 return A.N($async$xe,w)},
 x7(d,e){if(this.c==null)return
@@ -336,59 +336,70 @@ x=r>=720
 w=x?48:20
 x=x?48:20
 v=y.p
-u=A.b([D.a0W,A.c2(s,q?40:28,s)],v)
-if(q)u.push(A.bK(A.b([A.co(t.KQ(),6),D.Ti,A.co(t.KT(),4)],v),B.K,B.k,B.m,0))
+u=A.b([D.a0Z,A.c2(s,q?40:28,s)],v)
+if(q)u.push(A.bK(A.b([A.co(t.KQ(),6),D.Tl,A.co(t.KT(),4)],v),B.K,B.k,B.m,0))
 else u.push(A.aC(A.b([t.KQ(),B.bq,t.KT()],v),B.o,B.k,B.m))
 p=A.b([new C.BO(new C.Ue(t.gMW(),o,p,s),s),new E.BN(new A.a4(w,32,x,56),new C.BO(A.fc(new A.ce(D.CX,A.aC(u,B.K,B.k,B.m),s),s,s,s),s),s)],v)
-return A.Ng(D.ht,A.acS(new C.Jb(p,B.aG,!1,s,s,K.Cd,s,!1,s,0,s,s,K.AG,B.aQ,s,s,B.Z,B.aL,s),!0))},
+return A.Ng(D.ht,A.acS(new C.Jb(p,B.aG,!1,s,s,K.Cd,s,!1,s,0,s,s,K.AH,B.aQ,s,s,B.Z,B.aL,s),!0))},
 KQ(){var x,w,v,u,t=this,s=null,r=t.r,q=r===D.BD,p=t.y
 if(p==null)p=0
 x=t.w===D.mJ
 w=q?"QIBLA READY":"AWAITING LOCATION"
-v=q?B.ap:B.af
+v=q?B.ap:B.a7
 u=y.p
-v=A.b([A.bK(A.b([new C.W0(w,v,s),A.yS(B.J,s,s,B.pt,s,s,r===D.jp?s:t.gKo(),s,s,s,"Refresh location")],u),B.o,B.ls,B.m,0),B.cd,A.kW(new C.aoL(t,q,p,x))],u)
+v=A.b([A.bK(A.b([new C.W0(w,v,s),A.yS(B.J,s,s,B.pu,s,s,r===D.jq?s:t.gKo(),s,s,s,"Refresh location")],u),B.o,B.lt,B.m,0),B.cd,A.kW(new C.aoL(t,q,p,x))],u)
 if(q)B.b.P(v,A.b([B.bJ,new C.Pu(B.d.bd(p-(x?t.z:0)+360,360),x,s)],u))
-return new C.vB(A.aC(v,B.o,B.k,B.m),D.Hp,D.o4,D.o6,s)},
-KT(){var x,w,v,u,t,s,r,q=this,p=null,o=q.c
-o.toString
-x=A.G(o).ok
-w=q.y
-o=q.w
-v=x.w
-v=A.V("Direction details",p,p,p,v==null?p:v.bf(B.h,B.as),p,p)
-u=w==null?"\u2014":B.d.a6(w,1)+"\xb0 "+C.aBs(w)
-if(o===D.mJ)o=B.d.a6(q.z,1)+"\xb0 "+C.aBs(q.z)
-else o=q.w===D.mI?"Detecting\u2026":"Not available"
-t=q.x
-t=t==null?"Location not set":B.d.a6(t.a,5)+", "+B.d.a6(q.x.b,5)
-s=q.x
-s=s==null?"\u2014":"\xb1"+B.d.a6(s.f,0)+" m"
-r=y.p
-s=A.aC(A.b([v,B.fR,new C.qL(D.Iw,"Qibla direction",u,!0,p),D.mK,new C.qL(B.po,"Device heading",o,!1,p),D.mK,new C.qL(D.pn,"Current location",t,!1,p),D.mK,new C.qL(D.Ik,"Location accuracy",s,!1,p)],r),B.K,B.k,B.m)
-t=x.Q
-return A.aC(A.b([new C.vB(s,B.dh,D.o4,D.o6,p),B.bq,new C.vB(A.bK(A.b([D.ID,F.j2,A.co(A.V("For the best heading, hold your phone flat and keep it away from metal or magnetic objects.",p,p,p,t==null?p:t.hf(B.aX,1.55),p,p),1)],r),B.K,B.k,B.m,0),B.dh,D.ET,D.EW,p),B.bq,A.c2(I.pL(D.IL,D.Z1,q.gMW(),A.pM(p,p,p,p,p,p,p,p,p,B.h,p,p,G.hM,p,p,D.CC,p,p,p,p)),p,1/0)],r),B.o,B.k,B.m)},
+return new C.vB(A.aC(v,B.o,B.k,B.m),D.Hr,D.o5,D.o7,s)},
+KT(){var x,w,v,u,t,s,r,q,p,o,n,m=this,l=null,k=m.c
+k.toString
+x=A.G(k).ok
+w=m.y
+k=m.w
+v=k===D.mJ
+u=k===D.mK
+t=k===D.jp
+if(v)s="For the best heading, hold your phone flat and keep it away from metal or magnetic objects."
+else if(u)s="Live compass is unavailable on this device. For real-time heading, open QIBLA App on a supported iOS or Android phone. You can still use the Qibla bearing above relative to North."
+else{k=t?"Checking for a motion sensor. Keep your device still for a moment.":"Real-time compass requires motion sensors and works best on supported iOS or Android phones. On Windows or macOS, you can still calculate the Qibla bearing relative to North."
+s=k}k=x.w
+k=A.V("Direction details",l,l,l,k==null?l:k.bf(B.h,B.as),l,l)
+r=w==null?"\u2014":B.d.a6(w,1)+"\xb0 "+C.aBs(w)
+if(v)q=B.d.a6(m.z,1)+"\xb0 "+C.aBs(m.z)
+else q=m.w===D.jp?"Detecting\u2026":"Not available"
+p=m.x
+p=p==null?"Location not set":B.d.a6(p.a,5)+", "+B.d.a6(m.x.b,5)
+o=m.x
+o=o==null?"\u2014":"\xb1"+B.d.a6(o.f,0)+" m"
+n=y.p
+o=A.aC(A.b([k,B.fR,new C.qL(D.IA,"Qibla direction",r,!0,l),D.mL,new C.qL(B.pp,"Device heading",q,!1,l),D.mL,new C.qL(D.po,"Current location",p,!1,l),D.mL,new C.qL(D.Im,"Location accuracy",o,!1,l)],n),B.K,B.k,B.m)
+k=u?D.FB:D.ET
+r=u?D.F7:D.EW
+if(u)q=D.Iw
+else q=t?D.Ix:D.IC
+q=A.dH(q,u?B.a7:B.ap,l,22)
+p=x.Q
+return A.aC(A.b([new C.vB(o,B.dh,D.o5,D.o7,l),B.bq,new C.vB(A.bK(A.b([q,F.j2,A.co(A.V(s,l,l,l,p==null?l:p.hf(B.aX,1.55),l,l),1)],n),B.K,B.k,B.m,0),B.dh,k,r,l),B.bq,A.c2(I.pL(D.IO,D.Z4,m.gMW(),A.pM(l,l,l,l,l,l,l,l,l,B.h,l,l,G.hM,l,l,D.CC,l,l,l,l)),l,1/0)],n),B.o,B.k,B.m)},
 a6j(){var x=this.c
 x.toString
 return A.l3(x,!1).dK()}}
 C.Ue.prototype={
-D(d){var x=null,w=D.ht.aw(0.96),v=A.yS(x,x,x,G.fh,x,x,this.c,x,x,x,"Back to Mini Apps"),u=A.b2(x,D.IJ,B.n,x,x,new A.aB(B.ap.aw(0.12),x,x,A.b1(10),x,x,B.w),x,34,x,x,x,x,34),t=A.G(d).ok.w
-return A.b2(x,A.bK(A.b([v,B.j3,u,B.bp,A.V("QIBLA",x,x,x,t==null?x:t.iC(B.h,B.a7,1.2),x,x),B.AI,new A.nB(this.d,this.e,A.bh(4278244607),!0,x)],y.p),B.o,B.k,B.m,0),B.n,x,x,new A.aB(w,x,D.CF,x,x,x,B.w),x,68,x,B.oI,x,x,x)}}
+D(d){var x=null,w=D.ht.aw(0.96),v=A.yS(x,x,x,G.fh,x,x,this.c,x,x,x,"Back to Mini Apps"),u=A.b2(x,D.IM,B.n,x,x,new A.aB(B.ap.aw(0.12),x,x,A.b1(10),x,x,B.w),x,34,x,x,x,x,34),t=A.G(d).ok.w
+return A.b2(x,A.bK(A.b([v,B.j3,u,B.bp,A.V("QIBLA",x,x,x,t==null?x:t.iC(B.h,B.a8,1.2),x,x),B.AJ,new A.nB(this.d,this.e,A.bh(4278244607),!0,x)],y.p),B.o,B.k,B.m,0),B.n,x,x,new A.aB(w,x,D.CF,x,x,x,B.w),x,68,x,B.oJ,x,x,x)}}
 C.Ud.prototype={
 D(d){var x,w=null,v=A.G(d).ok,u=v.c
-u=A.V("Find your direction.",w,w,w,u==null?w:u.tq(B.h,B.a7,1.08),w,w)
+u=A.V("Find your direction.",w,w,w,u==null?w:u.tq(B.h,B.a8,1.08),w,w)
 x=v.y
-return new A.ce(F.jM,A.aC(A.b([u,B.ba,A.V("A focused Qibla compass for wherever the journey finds you.",w,w,w,x==null?w:x.hf(B.aX,1.55),w,w)],y.p),B.K,B.k,B.m),w)}}
+return new A.ce(F.jN,A.aC(A.b([u,B.ba,A.V("A focused Qibla compass for wherever the journey finds you.",w,w,w,x==null?w:x.hf(B.aX,1.55),w,w)],y.p),B.K,B.k,B.m),w)}}
 C.Qq.prototype={
-D(d){var x,w,v,u,t,s,r=null,q=A.G(d).ok,p=this.c,o=p===D.jp,n=p===D.BE||p===D.jq
+D(d){var x,w,v,u,t,s,r=null,q=A.G(d).ok,p=this.c,o=p===D.jq,n=p===D.BE||p===D.jr
 p=D.EY.aw(0.94)
 x=A.b1(22)
-w=A.cw(D.nP,1)
+w=A.cw(D.nQ,1)
 v=y.p
 u=A.b([],v)
-if(o)u.push(D.Tm)
-else{t=n?D.Io:D.Ip
-u.push(A.dW(t,n?B.af:B.ap,r,34))}u.push(B.ba)
+if(o)u.push(D.Tp)
+else{t=n?D.Iq:D.Ir
+u.push(A.dH(t,n?B.a7:B.ap,r,34))}u.push(B.ba)
 if(o)t="Finding your location\u2026"
 else t=n?"Location unavailable":"Your location is private"
 s=q.x
@@ -398,23 +409,23 @@ if(o)t="This usually takes a few seconds."
 else{t=this.d
 if(t==null)t="It is used only on this device to calculate the Qibla direction."}s=q.Q
 u.push(A.V(t,r,r,r,s==null?r:s.hf(B.aK,1.4),B.W,r))
-if(!o){t=A.dW(n?B.pq:D.pn,r,r,18)
-B.b.P(u,A.b([B.j4,A.c2(A.a2W(t,r,A.V(n?"Try again":"Use my location",r,r,r,r,r,r),this.e,A.avq(B.ap,D.ht,D.H5,r,r,B.jc)),r,1/0)],v))}return A.b2(r,A.aC(u,B.o,B.k,B.b6),B.n,r,r,new A.aB(p,r,w,x,D.KF,r,B.w),r,r,r,B.dh,r,r,238)}}
+if(!o){t=A.dH(n?B.pr:D.po,r,r,18)
+B.b.P(u,A.b([B.j4,A.c2(A.a2W(t,r,A.V(n?"Try again":"Use my location",r,r,r,r,r,r),this.e,A.avq(B.ap,D.ht,D.H7,r,r,B.jc)),r,1/0)],v))}return A.b2(r,A.aC(u,B.o,B.k,B.b6),B.n,r,r,new A.aB(p,r,w,x,D.KI,r,B.w),r,r,r,B.dh,r,r,238)}}
 C.Qo.prototype={
-D(d){return new C.uY(new A.ah(null,this.d,y.t),new C.aja(this),B.oe,B.hL,null,null,y.V)}}
+D(d){return new C.uY(new A.ah(null,this.d,y.t),new C.aja(this),B.of,B.hL,null,null,y.V)}}
 C.Qp.prototype={
 aB(a6,a7){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2=this,a3=null,a4=a7.iz(B.f),a5=a7.ge4()/2-14
 $.a1()
 x=A.aR()
-x.sqQ(D.Q5.tv(A.lm(a4,a5)))
+x.sqQ(D.Q8.tv(A.lm(a4,a5)))
 a6.hX(a4,a5,x)
 x=A.aR()
-x.r=D.FX.gt()
+x.r=D.FZ.gt()
 x.b=B.b8
 x.c=1.5
 a6.hX(a4,a5,x)
 x=A.aR()
-x.r=D.Fn.gt()
+x.r=D.Fo.gt()
 x.b=B.b8
 a6.hX(a4,a5*0.76,x)
 for(x=a6.a,w=a4.a,v=a4.b,u=a5-4,t=a2.c,s=0;s<360;s+=5){r=(s-t-90)*3.141592653589793/180
@@ -425,19 +436,19 @@ n=Math.sin(r)
 m=Math.cos(r)
 l=Math.sin(r)
 k=new A.mc(B.cJ,B.cb,B.j5,B.j7,B.dl)
-k.r=(q?B.aK:D.FM).gt()
+k.r=(q?B.aK:D.FO).gt()
 k.c=q?2:1
 j=k.dM()
 x.drawLine.apply(x,[w+o*p,v+n*p,w+m*u,v+l*u,j])
 j.delete()}i=A.ao([0,"N",90,"E",180,"S",270,"W"],y.i,y.N)
-for(x=new A.dH(i,A.l(i).i("dH<1,2>")).ga_(0),u=a5*0.65;x.u();){h=x.d
+for(x=new A.dI(i,A.l(i).i("dI<1,2>")).ga_(0),u=a5*0.65;x.u();){h=x.d
 p=h.a
 r=(p-t-90)*3.141592653589793/180
 o=Math.cos(r)
 n=Math.sin(r)
 m=h.b
 p=p===0?B.ap:B.aX
-p=A.cX(a3,a3,new A.k(!0,p,a3,a3,a3,a3,14,B.a7,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),m)
+p=A.cX(a3,a3,new A.k(!0,p,a3,a3,a3,a3,14,B.a8,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),m)
 g=new A.uR(p,B.b1,B.aq,new A.k8(1),a3,a3,a3,a3,B.bD,a3)
 g.zB()
 p=g.b
@@ -452,12 +463,12 @@ a6.kg(a4,e,u)
 d=a2.Oz(a4,a5*0.82,f)
 u=A.aR()
 u.r=B.ap.aw(0.18).gt()
-u.z=D.NE
+u.z=D.NH
 a6.hX(d,20,u)
 a0=A.awa(d,25,25)
 u=A.lk(a0,B.cS)
 t=A.aR()
-t.r=D.Fu.gt()
+t.r=D.Fv.gt()
 a6.ec(u,t)
 t=a0.gaT()
 u=a0.gaT()
@@ -492,13 +503,13 @@ else{w=s<180?"right":"left"
 s="Turn "+w+" "+B.d.a6(Math.min(s,360-s),0)+"\xb0"
 x=s}s=(r&&q?B.ap:B.N).aw(0.1)
 w=A.b1(99)
-v=r&&q?D.Ig:D.Iz
-v=A.dW(v,r&&q?B.ap:B.N,t,18)
+v=r&&q?D.Ii:D.ID
+v=A.dH(v,r&&q?B.ap:B.N,t,18)
 u=A.G(d).ok.at
-return A.j5(t,A.bK(A.b([v,B.cV,new A.mr(1,B.hZ,A.V(x,t,t,t,u==null?t:u.bf(B.h,B.dm),B.W,t),t)],y.p),B.o,B.k,B.b6,0),B.E,new A.aB(s,t,t,w,t,t,B.w),B.kl,t,D.Hk,t)}}
+return A.j5(t,A.bK(A.b([v,B.cV,new A.mr(1,B.hZ,A.V(x,t,t,t,u==null?t:u.bf(B.h,B.dm),B.W,t),t)],y.p),B.o,B.k,B.b6,0),B.E,new A.aB(s,t,t,w,t,t,B.w),B.km,t,D.Hm,t)}}
 C.qL.prototype={
 D(d){var x=this,w=null,v=A.G(d).ok,u=x.f,t=(u?B.ap:B.N).aw(0.09),s=A.b1(10),r=u?B.ap:B.N
-s=A.b2(w,A.dW(x.c,r,w,18),B.n,w,w,new A.aB(t,w,w,s,w,w,B.w),w,36,w,w,w,w,36)
+s=A.b2(w,A.dH(x.c,r,w,18),B.n,w,w,new A.aB(t,w,w,s,w,w,B.w),w,36,w,w,w,w,36)
 t=v.ax
 t=t==null?w:t.b_(B.bS)
 t=A.V(x.d,w,w,w,t,w,w)
@@ -508,14 +519,14 @@ else{r=r.bf(u?B.ap:B.h,B.dm)
 u=r}r=y.p
 return A.bK(A.b([s,F.j2,A.co(A.aC(A.b([t,B.dE,A.V(x.e,w,w,w,u,w,w)],r),B.K,B.k,B.m),1)],r),B.K,B.k,B.m,0)}}
 C.Sp.prototype={
-D(d){return D.Pa}}
+D(d){return D.Pd}}
 C.vB.prototype={
 D(d){var x=this,w=null,v=A.b1(24)
-return A.b2(w,x.c,B.n,w,w,new A.aB(x.e,w,A.cw(x.f,1),v,F.pM,w,B.w),w,w,w,x.d,w,w,1/0)}}
+return A.b2(w,x.c,B.n,w,w,new A.aB(x.e,w,A.cw(x.f,1),v,F.pN,w,B.w),w,w,w,x.d,w,w,1/0)}}
 C.W0.prototype={
 D(d){var x=null,w=this.d,v=w.aw(0.09),u=A.b1(99),t=A.cw(w.aw(0.25),1),s=A.G(d).ok.ax
 w=s==null?x:s.iC(w,B.as,0.8)
-return A.b2(x,A.V(this.c,x,x,x,w,x,x),B.n,x,x,new A.aB(v,x,t,u,x,x,B.w),x,x,x,F.oC,x,x,x)}}
+return A.b2(x,A.V(this.c,x,x,x,w,x,x),B.n,x,x,new A.aB(v,x,t,u,x,x,B.w),x,x,x,F.oD,x,x,x)}}
 var z=a.updateTypes(["ai<~>()","~()"])
 C.arU.prototype={
 $1(d){throw A.i(A.b_("Constructor will never be called because null is never provided as current tween."))},
@@ -541,8 +552,8 @@ x.w=D.mJ},
 $S:0}
 C.aoJ.prototype={
 $0(){var x=this.a
-x.r=D.jp
-x.w=D.mI
+x.r=D.jq
+x.w=D.jp
 x.Q=null},
 $S:0}
 C.aoK.prototype={
@@ -552,14 +563,14 @@ x.y=this.c
 x.r=D.BD},
 $S:0}
 C.aoO.prototype={
-$0(){return this.a.w=D.BB},
+$0(){return this.a.w=D.mK},
 $S:0}
 C.aoP.prototype={
 $0(){var x=this.a
-if(x.c!=null&&x.w===D.mI)x.O(new C.aoN(x))},
+if(x.c!=null&&x.w===D.jp)x.O(new C.aoN(x))},
 $S:0}
 C.aoN.prototype={
-$0(){return this.a.w=D.BB},
+$0(){return this.a.w=D.mK},
 $S:0}
 C.aoM.prototype={
 $0(){var x=this.a
@@ -573,7 +584,7 @@ if(!v){v=x.a
 u.push(new C.Qq(v.r,v.Q,v.gKo(),null))}return A.aBZ(A.fV(B.D,u,B.Z,B.bb),w)},
 $S:488}
 C.aja.prototype={
-$3(d,e,f){return A.jc(B.Tk,null,null,new C.Qp(this.a.c,e,null),B.C)},
+$3(d,e,f){return A.jc(B.Tn,null,null,new C.Qp(this.a.c,e,null),B.C)},
 $S:489};(function installTearOffs(){var x=a._instance_0u
 var w
 x(w=C.EY.prototype,"gKo","n3",0)
@@ -600,8 +611,8 @@ w(C.UY,E.MY)})()
 A.wm(b.typeUniverse,JSON.parse('{"N_":{"cQ":[],"aw":["v"],"r":[],"af":[]},"N0":{"cQ":[],"aw":["v"],"r":[],"af":[]},"BO":{"aT":[],"al":[],"e":[]},"Jb":{"W":[],"e":[]},"uY":{"X":[],"e":[]},"Gn":{"a2":["uY<1>"]},"At":{"X":[],"e":[]},"EY":{"a2":["At"]},"Ue":{"W":[],"e":[]},"Ud":{"W":[],"e":[]},"Qq":{"W":[],"e":[]},"Qo":{"W":[],"e":[]},"Qp":{"ac":[]},"Pu":{"W":[],"e":[]},"qL":{"W":[],"e":[]},"Sp":{"W":[],"e":[]},"vB":{"W":[],"e":[]},"W0":{"W":[],"e":[]}}'))
 var y=(function rtii(){var x=A.a6
 return{p:x("p<e>"),m:x("az"),w:x("iu"),S:x("iF"),v:x("iG"),N:x("n"),V:x("uY<D>"),t:x("ah<D>"),y:x("J"),i:x("D"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.nP=new A.q(1,0.1607843137254902,0.25882352941176473,0.34901960784313724,B.e)
-D.CC=new A.aE(D.nP,1,B.x,-1)
+D.nQ=new A.q(1,0.1607843137254902,0.25882352941176473,0.34901960784313724,B.e)
+D.CC=new A.aE(D.nQ,1,B.x,-1)
 D.F4=new A.q(1,0.09019607843137255,0.16470588235294117,0.22745098039215686,B.e)
 D.Cy=new A.aE(D.F4,1,B.x,-1)
 D.CF=new A.cY(B.q,B.q,D.Cy,B.q)
@@ -610,55 +621,58 @@ D.ET=new A.q(1,0.06274509803921569,0.1411764705882353,0.12156862745098039,B.e)
 D.EU=new A.q(1,0.8509803921568627,0.7215686274509804,0.36470588235294116,B.e)
 D.EW=new A.q(1,0.15294117647058825,0.32941176470588235,0.26666666666666666,B.e)
 D.EY=new A.q(1,0.043137254901960784,0.09411764705882353,0.13333333333333333,B.e)
-D.Fn=new A.q(1,0.10588235294117647,0.20784313725490197,0.2627450980392157,B.e)
-D.Fu=new A.q(1,0.0196078431372549,0.027450980392156862,0.027450980392156862,B.e)
-D.o4=new A.q(1,0.047058823529411764,0.10196078431372549,0.1450980392156863,B.e)
-D.FM=new A.q(0.23921568627450981,1,1,1,B.e)
-D.o6=new A.q(1,0.10980392156862745,0.20392156862745098,0.27058823529411763,B.e)
+D.F7=new A.q(1,0.4196078431372549,0.32941176470588235,0.12549019607843137,B.e)
+D.Fo=new A.q(1,0.10588235294117647,0.20784313725490197,0.2627450980392157,B.e)
+D.Fv=new A.q(1,0.0196078431372549,0.027450980392156862,0.027450980392156862,B.e)
+D.FB=new A.q(1,0.1568627450980392,0.12549019607843137,0.058823529411764705,B.e)
+D.o5=new A.q(1,0.047058823529411764,0.10196078431372549,0.1450980392156863,B.e)
+D.FO=new A.q(0.23921568627450981,1,1,1,B.e)
+D.o7=new A.q(1,0.10980392156862745,0.20392156862745098,0.27058823529411763,B.e)
 D.ht=new A.q(1,0.027450980392156862,0.06274509803921569,0.09803921568627451,B.e)
-D.FX=new A.q(1,0.1568627450980392,0.27450980392156865,0.3411764705882353,B.e)
-D.GO=new A.at(4e6)
-D.H5=new A.a4(0,13,0,13)
-D.Hk=new A.a4(16,12,16,12)
-D.Hp=new A.a4(18,22,18,20)
-D.Ig=new A.bw(63029,"MaterialIcons",!1)
-D.Ik=new A.bw(63414,"MaterialIcons",!1)
-D.Io=new A.bw(63619,"MaterialIcons",!1)
-D.Ip=new A.bw(63621,"MaterialIcons",!1)
-D.pn=new A.bw(63728,"MaterialIcons",!1)
-D.Iw=new A.bw(983893,"MaterialIcons",!1)
-D.Iz=new A.bw(985111,"MaterialIcons",!1)
-D.Iy=new A.bw(984705,"MaterialIcons",!1)
-D.ID=new A.eH(D.Iy,22,B.ap,null,null)
-D.IJ=new A.eH(B.pk,20,B.ap,null,null)
-D.IL=new A.eH(G.pg,18,null,null,null)
-D.Jj=x(["N","NE","E","SE","S","SW","W","NW"],A.a6("p<n>"))
-D.D7=new A.cd(0,B.b4,G.Fo,B.f,30)
-D.KF=x([D.D7],A.a6("p<cd>"))
-D.GF=new A.at(15e6)
-D.LU=new H.Ld(B.LR,0,D.GF)
-D.NE=new A.tz(B.b4,12)
-D.Fq=new A.q(1,0.10588235294117647,0.2,0.2627450980392157,B.e)
-D.Gx=new I.y0(D.Fq,null)
-D.Pa=new A.ca(G.hM,D.Gx,null)
-D.F9=new A.q(1,0.06274509803921569,0.14901960784313725,0.19215686274509805,B.e)
+D.FZ=new A.q(1,0.1568627450980392,0.27450980392156865,0.3411764705882353,B.e)
+D.GQ=new A.at(4e6)
+D.H7=new A.a4(0,13,0,13)
+D.Hm=new A.a4(16,12,16,12)
+D.Hr=new A.a4(18,22,18,20)
+D.Ii=new A.bs(63029,"MaterialIcons",!1)
+D.Im=new A.bs(63414,"MaterialIcons",!1)
+D.Iq=new A.bs(63619,"MaterialIcons",!1)
+D.Ir=new A.bs(63621,"MaterialIcons",!1)
+D.po=new A.bs(63728,"MaterialIcons",!1)
+D.Iw=new A.bs(983167,"MaterialIcons",!1)
+D.Ix=new A.bs(983372,"MaterialIcons",!1)
+D.IA=new A.bs(983893,"MaterialIcons",!1)
+D.IC=new A.bs(984705,"MaterialIcons",!1)
+D.ID=new A.bs(985111,"MaterialIcons",!1)
+D.IM=new A.eV(B.pl,20,B.ap,null,null)
+D.IO=new A.eV(G.ph,18,null,null,null)
+D.Jm=x(["N","NE","E","SE","S","SW","W","NW"],A.a6("p<n>"))
+D.D7=new A.cd(0,B.b4,G.Fp,B.f,30)
+D.KI=x([D.D7],A.a6("p<cd>"))
+D.GH=new A.at(15e6)
+D.LX=new H.Ld(B.LU,0,D.GH)
+D.NH=new A.tz(B.b4,12)
+D.Fr=new A.q(1,0.10588235294117647,0.2,0.2627450980392157,B.e)
+D.Gz=new I.y0(D.Fr,null)
+D.Pd=new A.ca(G.hM,D.Gz,null)
+D.Fa=new A.q(1,0.06274509803921569,0.14901960784313725,0.19215686274509805,B.e)
 D.EV=new A.q(1,0.03529411764705882,0.0784313725490196,0.11764705882352941,B.e)
-D.Ky=x([D.F9,D.EV],A.a6("p<q>"))
-D.Q5=new A.iy(B.D,0.5,B.aA,null,0,D.Ky,null,null)
-D.Ti=new A.bl(24,null,null,null)
+D.KB=x([D.Fa,D.EV],A.a6("p<q>"))
+D.Q8=new A.iy(B.D,0.5,B.aA,null,0,D.KB,null,null)
+D.Tl=new A.bl(24,null,null,null)
 D.EA=new A.kw(3,null,null,B.ap,null,null,null,null)
-D.Tm=new A.bl(32,32,D.EA,null)
-D.TA=new E.O3(0,0,0,0,0,0,!1,!1,null,0)
-D.Z1=new A.ds("Back to Mini Apps",null,null,null,null,null,null,null,null)
-D.a03=new C.vE(0,"idle")
-D.mI=new C.vE(1,"waiting")
+D.Tp=new A.bl(32,32,D.EA,null)
+D.TD=new E.O3(0,0,0,0,0,0,!1,!1,null,0)
+D.Z4=new A.ds("Back to Mini Apps",null,null,null,null,null,null,null,null)
+D.a06=new C.vE(0,"idle")
+D.jp=new C.vE(1,"waiting")
 D.mJ=new C.vE(2,"available")
-D.BB=new C.vE(3,"unsupported")
-D.mK=new C.Sp(null)
-D.a0i=new C.qO(0,"idle")
-D.jp=new C.qO(1,"loading")
+D.mK=new C.vE(3,"unsupported")
+D.mL=new C.Sp(null)
+D.a0l=new C.qO(0,"idle")
+D.jq=new C.qO(1,"loading")
 D.BD=new C.qO(2,"ready")
 D.BE=new C.qO(3,"permissionDenied")
-D.jq=new C.qO(4,"unavailable")
-D.a0W=new C.Ud(null)})()};
-(a=>{a["Mbek477aP8Jz1uAmybE3wSPZD9M="]=a.current})($__dart_deferred_initializers__);
+D.jr=new C.qO(4,"unavailable")
+D.a0Z=new C.Ud(null)})()};
+(a=>{a["eS7tENUlTE6wVw0smvj6qamC4bY="]=a.current})($__dart_deferred_initializers__);
