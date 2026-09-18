@@ -10490,6 +10490,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 --------------------------------------------------------------------------------
+go_router
 google_fonts
 path_provider_android
 path_provider_foundation
@@ -10497,6 +10498,12 @@ shared_preferences
 shared_preferences_android
 shared_preferences_foundation
 shared_preferences_platform_interface
+url_launcher_android
+url_launcher_ios
+url_launcher_linux
+url_launcher_macos
+url_launcher_web
+url_launcher_windows
 
 Copyright 2013 The Flutter Authors
 
@@ -24393,6 +24400,8 @@ plugin_platform_interface
 shared_preferences_linux
 shared_preferences_web
 shared_preferences_windows
+url_launcher
+url_launcher_platform_interface
 xdg_directories
 
 Copyright 2013 The Flutter Authors. All rights reserved.
